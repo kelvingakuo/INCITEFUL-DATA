@@ -7,12 +7,12 @@ This repo contains all the code written for us on the blog posts on: [bit.ly/inc
 
 ### DIRS PRESENT (so far)
 
-├── #KFCBansLesbianFilm >>> [Read the blog post here](https://incitefuldata.blogspot.com/search?updated-max=2018-06-30T06:42:00-07:00&max-results=5)
-├── Crowdfunding >>> [Read the blog  post here](https://incitefuldata.blogspot.com/2018/06/is-your-crowdfunding-campaign-going-to.html)
-├── datasets >>> Raw datasets
-├── Grammys >>> [Coming soon]()
-├──	Hiphop music >>> [Read the blog post here](https://incitefuldata.blogspot.com/2018/09/hip-hop-music-is-it-only-about-drugs.html)
-├──	Spotify >>> [Coming soon]()
+1. #KFCBansLesbianFilm >>> [Read the blog post here](https://incitefuldata.blogspot.com/search?updated-max=2018-06-30T06:42:00-07:00&max-results=5)
+2. Crowdfunding >>> [Read the blog  post here](https://incitefuldata.blogspot.com/2018/06/is-your-crowdfunding-campaign-going-to.html)
+3. datasets >>> Raw datasets
+4. Grammys >>> [Coming soon]()
+5. Hiphop music >>> [Read the blog post here](https://incitefuldata.blogspot.com/2018/09/hip-hop-music-is-it-only-about-drugs.html)
+6. Spotify >>> [Coming soon]()
 
 
 
