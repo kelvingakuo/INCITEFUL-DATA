@@ -1,0 +1,17 @@
+Retry for this ITEM: 422794 ARTIST: Sam Smith in this FILE: records.json
+Retry for this ITEM: 729031 ARTIST: Beyonce in this FILE: songs.json
+Retry for this ITEM: 1105854 ARTIST: Alison Krauss in this FILE: records.json
+Retry for this ITEM: 57616 ARTIST: Celine Dion in this FILE: songs.json
+Retry for this ITEM: 89577 ARTIST: Alan Menken in this FILE: songs.json
+Retry for this ITEM: 941926 ARTIST: Joel Little in this FILE: songs.json
+Retry for this ITEM: 235743 ARTIST: The Doobie Brothers in this FILE: songs.json
+Retry for this ITEM: 249908 ARTIST: Natalie Cole [With Nat "King" Cole] in this FILE: songs.json
+Retry for this ITEM: 339267 ARTIST: 5th Dimension in this FILE: records.json
+Retry for this ITEM: 849499 ARTIST: Simon And Garfunkel in this FILE: records.json
+Retry for this ITEM: 632879 ARTIST: Ernest Gold in this FILE: songs.json
+Retry for this ITEM: 695764 ARTIST: Tony Bennett in this FILE: songs.json
+Retry for this ITEM: 1380968 ARTIST: Herb Alpert And The Tijuana Brass in this FILE: records.json
+Retry for this ITEM: 49935 ARTIST: Percy Faith & His Orchestra in this FILE: records.json
+Retry for this ITEM: 1354734 ARTIST: Jimmy Driftwood in this FILE: songs.json
+Retry for this ITEM: 1490769 ARTIST: Domenico Modugno in this FILE: songs.json
+Retry for this ITEM: 839129 ARTIST: John Lennon in this FILE: songs.json
