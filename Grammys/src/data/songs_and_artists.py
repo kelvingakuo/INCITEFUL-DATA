@@ -42,9 +42,9 @@ def main(what):
 	"""Generate data for use by the lyrics crawler
 	"""
 	
-	recs = pd.read_csv('../data/record_of_the_year.csv')
-	sngs = pd.read_csv('../data/song_of_the_year.csv')
-	arts = pd.read_csv('../data/best_new_artist.csv')
+	recs = pd.read_csv('../../data/interim/record_of_the_year.csv')
+	sngs = pd.read_csv('../../data/interim/song_of_the_year.csv')
+	arts = pd.read_csv('../../data/interim/best_new_artist.csv')
 
 	records = dict()
 	records['id'] = []
@@ -78,7 +78,9 @@ def main(what):
 		artists = records['artist'] + songs['artist'] + arts['artist'].tolist()
 		info = sorted(list(set(artists)))
 
-		return info
+		if(os.path.exists('WikipediaCrawler/artists.pkl') == False):
+			with open('WikipediaCrawler/artists.pkl', 'wb') as arts:
+				pickle.dump(info, arts)
 
 	else:
 		if(os.path.exists('LyricsFreakCrawler/records.json') == False):

@@ -1,0 +1,248 @@
+(lp0
+S'A Taste Of Honey'
+p1
+aS'Adele'
+p2
+aS'Alan Menken'
+p3
+aS'Alessia Cara'
+p4
+aS'Alicia Keys'
+p5
+aS'Alison Krauss'
+p6
+aS'America'
+p7
+aS'Amy Winehouse'
+p8
+aS'Arrested Development'
+p9
+aS'Barbra Streisand'
+p10
+aS'Barry Manilow'
+p11
+aS'Bette Midler'
+p12
+aS'Beyonce'
+p13
+aS'Billy Joel'
+p14
+aS'Bob Newhart'
+p15
+aS'Bobbie Gentry'
+p16
+aS'Bobby Darin'
+p17
+aS'Bobby McFerrin'
+p18
+aS'Bon Iver'
+p19
+aS'Bruce Hornsby & The Range'
+p20
+aS'Bruce Springsteen'
+p21
+aS'Bruno Mars'
+p22
+aS'Captain & Tennille'
+p23
+aS'Carly Simon'
+p24
+aS'Carole King'
+p25
+aS'Carpenters'
+p26
+aS'Carrie Underwood'
+p27
+aS'Celine Dion'
+p28
+aS'Chance The Rapper'
+p29
+aS'Christina Aguilera'
+p30
+aS'Christopher Cross'
+p31
+aS'Coldplay'
+p32
+aS'Crosby, Stills And Nash'
+p33
+aS'Culture Club'
+p34
+aS'Cyndi Lauper'
+p35
+aS'Daft Punk'
+p36
+aS'Debby Boone'
+p37
+aS'Dixie Chicks'
+p38
+aS'Domenico Modugno'
+p39
+aS'Eagles'
+p40
+aS'Ed Sheeran'
+p41
+aS'Elton John'
+p42
+aS'Eric Clapton'
+p43
+aS'Ernest Gold'
+p44
+aS'Esperanza Spalding'
+p45
+aS'Evanescence'
+p46
+aS'Frank Sinatra'
+p47
+aS'Fun.'
+p48
+aS'George Benson'
+p49
+aS'Gotye'
+p50
+aS'Green Day'
+p51
+aS'Henry Mancini'
+p52
+aS'Herb Alpert'
+p53
+aS'Hootie & The Blowfish'
+p54
+aS'Jimmy Driftwood'
+p55
+aS'Jody Watley'
+p56
+aS'Joe South'
+p57
+aS'Joel Little'
+p58
+aS'John Legend'
+p59
+aS'John Lennon'
+p60
+aS'John Mayer'
+p61
+aS'Jose Feliciano'
+p62
+aS'Judy Collins'
+p63
+aS'Kim Carnes'
+p64
+aS'Kings Of Leon'
+p65
+aS'Lady Antebellum'
+p66
+aS'Lauryn Hill'
+p67
+aS'LeAnn Rimes'
+p68
+aS'Linda Ronstadt'
+p69
+aS'Lionel Richie'
+p70
+aS'Louis Armstrong'
+p71
+aS'Luther Vandross'
+p72
+aS'Macklemore & Ryan Lewis'
+p73
+aS'Marc Cohn'
+p74
+aS'Mariah Carey'
+p75
+aS'Mark Ronson'
+p76
+aS'Maroon 5'
+p77
+aS'Marvin Hamlisch'
+p78
+aS'Meghan Trainor'
+p79
+aS'Men At Work'
+p80
+aS'Michael Jackson'
+p81
+aS'Natalie Cole'
+p82
+aS'Natalie Cole [With Nat "King" Cole]'
+p83
+aS'Norah Jones'
+p84
+aS'Olivia Newton-John'
+p85
+aS'Paul Simon'
+p86
+aS'Paula Cole'
+p87
+aS'Percy Faith & His Orchestra'
+p88
+aS'Peter Nero'
+p89
+aS'Phil Collins'
+p90
+aS'Rickie Lee Jones'
+p91
+aS'Robert Goulet'
+p92
+aS'Roberta Flack'
+p93
+aS'Roger Miller'
+p94
+aS'Sade'
+p95
+aS'Sam Smith'
+p96
+aS'Sammy Davis Jr'
+p97
+aS'Santana'
+p98
+aS'Seal'
+p99
+aS'Shawn Colvin'
+p100
+aS'Sheena Easton'
+p101
+aS'Shelby Lynne'
+p102
+aS'Sheryl Crow'
+p103
+aS'Simon And Garfunkel'
+p104
+aS'Stan Getz'
+p105
+aS'Starland Vocal Band'
+p106
+aS'Steve Winwood'
+p107
+aS'Sting'
+p108
+aS'The 5th Dimension'
+p109
+aS'The Beatles'
+p110
+aS'The Doobie Brothers'
+p111
+aS'Tina Turner'
+p112
+aS'Tom Jones'
+p113
+aS'Toni Braxton'
+p114
+aS'Tony Bennett'
+p115
+aS'Toto'
+p116
+aS'Tracy Chapman'
+p117
+aS'U2'
+p118
+aS'USA For Africa (Various Artists)'
+p119
+aS'Ward Swingle'
+p120
+aS'Whitney Houston'
+p121
+aS'Willie Nelson'
+p122
+aS'Zac Brown Band'
+p123
+a.

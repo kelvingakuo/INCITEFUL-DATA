@@ -119,7 +119,7 @@ class LyricsfreakSpider(scrapy.Spider):
 		except UnboundLocalError: # This item needs to be checked manually
 			logging.error('LYRICS NON-EXISTENT FOR THIS ITEM...')
 			with open('try_another_lyric_search_term.txt', 'a') as tryFile:
-				line = 'Retry for this ITEM: {} ARTIST: {} in this FILE: {}\n'.format(idef, comparator, theFile)
+				line = 'Retry for ITEM: {} ARTIST: {} in FILE: {}\n'.format(idef, comparator, theFile)
 				tryFile.write(line)
 
 

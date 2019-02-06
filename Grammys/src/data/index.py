@@ -1,25 +1,25 @@
+import os
 import pandas as pd
 import sys
 
 from winners import Winners 
-from artist_data import Artists
 from audio_features import Features
 
 from songs_and_artists import main as getSongData
-from run_lyrics_crawler import runCrawler as LyricsCrawl
+from run_crawlers import runCrawler
 
 from log_config import logger
 
 
 def parseData(data):
-	""" Write data to CSV file
+	""" Write raw data to CSV file 
 	"""
 	j = 0
 	while j < len(data['type']):
 		fileName = data['type'][j]
 		dictdata = data['data'][j]
 
-		fil = '../data/' + fileName + '.csv'
+		fil = '../../data/raw/' + fileName + '.csv'
 		df = pd.DataFrame.from_dict(dictdata, orient = 'columns')
 
 		df.to_csv(fil, index = False, encoding = 'utf-8')
@@ -29,9 +29,9 @@ def parseData(data):
 def dataFromSource(param):
 	""" Return a dict or list of artist and/ or song information
 	"""
-	newArtist = pd.read_csv('../data/best_new_artist.csv')
-	recordOfYear = pd.read_csv('../data/record_of_the_year.csv')
-	songOfYear = pd.read_csv('../data/song_of_the_year.csv')
+	newArtist = pd.read_csv('../../data/interim/best_new_artist.csv')
+	recordOfYear = pd.read_csv('../../data/interim/record_of_the_year.csv')
+	songOfYear = pd.read_csv('../../data/interim/song_of_the_year.csv')
 
 	if(param == 'artists'):
 		info = getSongData('artistsOnly')
@@ -59,20 +59,23 @@ def main(choice):
 		items = dataFromSource('songs')
 		logger.info('Records and Songs files generated!!')
 
-		LyricsCrawl() #3. Run Scrapy lyrics extractor
+		runCrawler('lyrics') #3. Run Scrapy lyrics extractor
 
 	elif(choice == 'artist_data'):
-		obj = Artists()
+		logger.info('Generating list of artists for the crawler...')
 		artists = dataFromSource('artists')
+		logger.info('List of artists generated!!')
 
-		data = obj.getArtistInfo(artists) #4. Extract info about artists
-		#parseData(data)
+		runCrawler('artistData') #4. Run Scrapy artist data extractor
 
 	elif(choice == 'audio_features'):
 		obj = Features()
 
 		songs = dataFromSource('songs')
-		# Implement Features() to get track ID and audio features
+		# Implement Features() to get track ID and audio features where possible
+
+	elif(choice == 'aa'):
+		print(os.getcwd())
 
 	
 
