@@ -1,3 +1,4 @@
+# Extract info about deaths from deathtimeline.com
 import json
 import logging
 import pandas as pd
@@ -26,7 +27,7 @@ def makeRequests(season, what):
 
 	return data
 
-# ../../data/
+
 def parseData(deathsData, epsData, season):
 	""" Clean up and store data
 	Input - Deaths and episodes data as dicts
@@ -51,8 +52,8 @@ def parseData(deathsData, epsData, season):
 	else:
 		isHeaders = False
 
-	deathsCSV = '../../data/raw/deaths.csv'
-	epsCSV = '../../data/raw/episodes.csv'
+	deathsCSV = '../../data/raw/deaths_s01_s06.csv'
+	epsCSV = '../../data/raw/episodes_s01_s06.csv'
 
 
 	with open(deathsCSV, 'a') as deaths, open(epsCSV, 'a') as eps:
