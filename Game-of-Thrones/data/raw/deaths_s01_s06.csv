@@ -1,0 +1,197 @@
+episode_id,killed_by,name,time,season
+1,Killed by White Walker,Waymar Royce,5:52,1
+1,Killed by White Walker,Gared,6:58,1
+1,Executed by Ned Stark,Will,13:44,1
+1,Poisoned by Lysa,Jon Arryn,18:34,1
+2,Killed by Bran's Wolf,Assassin,31:27,1
+2,Killed by the Hound,Mycah,4:37,1
+4,Killed by the Mountain,Ser Hugh,47:41,1
+5,Killed by hill tribesmen,Kurleket,11:56,1
+5,Killed by hill tribesmen,Willis Wode,12:31,1
+5,Killed by Lannister guardsmen,Wyl,51:14,1
+5,Killed by Lannister guardsmen,Heward,51:14,1
+5,Killed by Jamie Lannister,Jory Cassel,51:30,1
+6,Killed by Rob Stark,Wallen,11:23,1
+6,Kill by Theon Greyjoy,Stiv,12:05,1
+6,Killed by Bronn,Vardis Egen,38:19,1
+6,Killed by Khal Drogo,Viserys Targaryen ,51:04,1
+7,Dragged behind a Horse,Wine seller,51:53,1
+7,Killed by a boar,Robert Baratheon,52:09,1
+8,Killed by House Lannister men,Vayon Poole,2:25,1
+8,Killed by House Lannister men,Mordane,3:12,1
+8,Killed by House Lannister men,Syrio Forel,5:46,1
+8,Killed by Arya,Stableboy,7:02,1
+8,Killed by Khal Drogo,Mago,30:52,1
+8,Burned by Jon Snow,Othor,25:58,1
+9,Killed by Jorah Mormont,Qotho,34:02,1
+9,Executed by Ilyn Payne,Eddard Stark,54:56,1
+10,Smothered by Daenerys,Khal Drogo,33:39,1
+10,Burned alive by by Daenerys,Mirri Maz Duur,48:12,1
+11,Suicide by poison,Maester Cressen,30:49,2
+11,killed by Janos Slynt,Barra,49:21,2
+12,Killed by Dothrakis,Rakharo,15:52,2
+13,killed by Amory Lorch,Yoren,48:22,2
+13,Killed by Polliver,Lommy,50:13,2
+14,killed by Robb Stark's wolf,Rennick,3:39,2
+14,killed by Robb Stark's wolf,Lannister guardsmen,3:39,2
+14,Tortured to death ,Tortured Prisoner,28:13,2
+15,Killed by shadow creature,Renly Baratheon,3:38,2
+15,killed by Brienne of Tarth,Emmon Cuy,4:04,2
+15,killed by Brienne of Tarth,Robar Royce,4:12,2
+15,Killed by Jaqen H'ghar,The Tickler,52:10,2
+16,Killed by Theon Greyjoy ,Rodrik Cassel,9:35,2
+16,Killed by rioters,The High Septon,26:25,2
+16,Killed by Jagen H'ghar,Armory Lorch,38:41,2
+16,Killed by Osha,Drennan ,50:19,2
+16,Killed by Xaro Xhoan Daxos,Irri,52:00,2
+17,Killed by Jamie Lannister,Alton Lannister,38:38,2
+17,Killed by Jamie Lannister,Torrhen Karstark,39:07,2
+17,Killed by Pyat Pree,Eleven of the Thirteen,42:41,2
+17,Killed by Theon Greyjoy,Billy,53:27,2
+17,Killed by Theon Greyjoy,Jack,53:27,2
+18,killed by wildlings,Stonesnake,7:24,2
+18,killed by wildlings,Harker,7:24,2
+18,killed by wildlings,Borba ,7:24,2
+19,killed by Wildfire explosion,Matthos Seaworth,25:09,2
+19,killed by Podrik,Mandon Moore,49:47,2
+20,killed by Brienne of Tarth,Tom,15:51,2
+20,Killed by Dagmer,Maester Luwin,28:31,2
+20,Killed by Daenerys' dragons,Pyat Pree,51:08,2
+20,Killed by Jon Snow,Qhorin,53:26,2
+20,Locked in Xaro Xhoan Daxos' vault,Doreah,56:46,2
+20,Locked in his vault,Xaro Xhoan Daxos,56:46,2
+22,Old age,Hoster Tully,5:31,3
+23,Killed by Ramsay Snow,Master Torturer,45:14,3
+24,Died of a broken foot and being starved,Bannen,34:51,3
+24,killed by Karl Tanner,Caster,38:39,3
+24,killed by Rast,Jeor Mormont,39:03,3
+24,Killed by dragon,Kraznys mo Nakloz,49:00,3
+25,killed by Richard Karstark,Willen Lannister,20:55,3
+25,killed by Richard Karstark,Martyn Lannister,20:58,3
+25,Executed by Robb Stark,Richard Karstark,25:09,3
+26,killed by Joffrey,Ros,48:40,3
+28,Killed by Daario Naharis,Mero,45:11,3
+28,Killed by Daario Naharis,Prendahl na Ghezn,45:11,3
+28,White Walker,White Walker,54:25,3
+29,Killed by Ygritte,Old Man,25:04,3
+29,Killed by Jon Snow,Orell,26:20,3
+29,killed by Lorthar Frey,Talisa Stark,44:15,3
+29,Killed by Roose Bolton,Robb Stark,48:37,3
+29,killed by Catelyn Stark,Joyeuse Erenford,48:57,3
+29,Killed by Walder Rivers,Catelyn Stark,49:05,3
+30,Killed by Arya Stark,Frey Soldier,40:00,3
+31,Killed by the Hound,lowell,55:00,4
+31,Killed by Arya Stark,Polliver,55:30,4
+32,Killed by Ramsey's Dogs,Tansy,3:59,4
+32,Burned alive by Melisandre,Axell Florent,20:10,4
+32,Poisoned by Olenna Tyrell,Joffrey Baratheon,47:46,4
+33,killed by Petyr Baelish's men,Dontos Hollar,4:46,4
+33,Killed by Ygritte,Guymon,43:40,4
+33,Killed by Styr,Olly's Mother,43:50,4
+33,Killed by Daario Naharis,Oznak zo Pahl,52:30,4
+34,killed slaves in uprising,Great Master,7:45,4
+35, Killed Bran Stark while warging into Hodor,Locke,44:46,4
+35,Killed by Jon Snow,Karl Tanner,47:51,4
+35,Killed by Jon Snow's wolf,Rast,49:47,4
+37,Mercy killed by the Hound,Dying Man,8:57,4
+37,Killed by the Hound,Biter,9:39,4
+37,Killed by Arya Stark,Rorge,10:29,4
+37,Pushed through the moon door by Littlefinger,Lysa Arryn,49:19,4
+38,Killed by Ygritte,Mole's Town whore,5:08,4
+38,killed by Adrack Humble,Ralf Kenning,16:41,4
+38,Killed by Ramsay Snow's men,Adrack Humble,17:07,4
+38,Killed by the Mountain,Oberyn Martell,50:05,4
+39,Killed by Ygritte,Pypar,29:44,4
+39,Killed by Samwell Tarly,Thenn warg,34:00,4
+39,killed by Black Brothers,Dongo,35:44,4
+39,Fell of the wall,Smitty,36:02,4
+39,Killed by Jon Snow,Styr,41:12,4
+39,Killed by Olly,Ygritte,41:39,4
+39,killed by Grenn and 5 other black brothers,Mag Mar Tun Doh Weg,47:02,4
+39,Killed by Mag Mar Tun Doh Weg,Grenn,47:02,4
+39,Killed by Mag Mar Tun Doh Weg,Cooper,47:02,4
+39,Killed by Mag Mar Tun Doh Weg,Done Hill,47:02,4
+40,killed by Dragon,Zalla,23:25,4
+40,Killed by wight,Jojen Reed,35:56,4
+40,Killed by Tyrion Lannister,Shae,54:57,4
+40,killed by Tyrion Lannister,Tywin Lannister,58:45,4
+41,Killed by a member of the Sons of the Harpy,White Rat,15:20,5
+41,Mercy killed by Jon Snow,Mance Rayder,49:18,5
+42,Killed by Mossador,Son of Harpy,46:30,5
+42,Executed by Daario Naharis,Mossador,50:24,5
+43,Executed by Jon Snow,Janos Slynt,38:58,5
+44,Killed by Bronn,Lead Dornish guard,34:17,5
+44,Killed by Obara Sand,Merchant captain,38:42,5
+44,Killed by Sons of Harpy,Ser Barristan Selmy,47:46,5
+45,Killed by dragon,Great Master,4:59,5
+46,Posioned with water from House of Black and White by Arya ,Ghita,13:20,5
+47,Died of natural causes,Master Aemon,9:45,5
+47,Killed by Ramsay Bolton,Old Woman,13:42,5
+48,killed by Tormund,Lord of Bones,32:50,5
+48,Killed by White Walker,Loboda,50:16,5
+48,killed by Jon Snow,White Walker,51:00,5
+48,Killed by a pack of child-wights,Karsi,52:58,5
+49,Burned alive as a sacrifice by Melisandre,Shrine Baratheon,32:28,5
+49,Killed by son of Harpy,Hizdahr zo Loraq,45:03,5
+50,Suicide by hanging,Selyse Baratheon,3:35,5
+50,Killed by Brienne of Tarth,Stannis Baratheon,15:23,5
+50,Killed by Theon Greyjoy,Myranda,18:33,5
+50,Killed by Arya Stark,Meryn Trant,21:10,5
+50,poisoned by Ellaria Sand ,Myrcella Baratheon,29:25,5
+50,Killed by Black brothers (Later Resurrected),Jon Snow,56:20,5
+51,Killed by Brienne of Tarth,Bolton officer,15:47,6
+51,Stabbed in the back by Tyene Sand,Areo Hotah,26:46,6
+51,killed by Ellaria Sand,Doran Martell,26:50,6
+51,killed by Tyene Sand,Master Caleotte,26:53,6
+51,killed by Obara Sand,Trystane Martell,28:30,6
+52,Killed by The Mountain,King's Landing boaster,12:24,6
+52,Killed by Ramsay Bolton,Roose Bolton,31:04,6
+52,Killed by Ramsay Bolton,Walda Bolton,35:17,6
+52,Killed by Ramsay Bolton,Newborn Bolton,35:17,6
+52,Thrown from a bridge by Euron Greyjoy,Balon Greyjoy,42:21,6
+53,killed by Ned Stark,Gerold Hightower,14:15,6
+53,killed by Ned Stark,Arthur Dayne,16:16,6
+53,Died during the War of the Five Kings,Jon Umber,43:32,6
+53,Executed by Jon Snow,Bowen Marsh,49:17,6
+53,Executed by Jon Snow,Othell Yarwyck,49:17,6
+53,Executed by Jon Snow,Alliser Thorne,49:17,6
+53,Executed by Jon Snow,Olly,49:17,6
+54,killed by Daario Naharis,Iggo,24:20,6
+54,killed by Daario Naharis,Akho,24:39,6
+54,killed by Ramsay Bolton,Osha,46:18,6
+54,Burned alive by Daenery,Moro and 9 other Khals,54:27,6
+55,killed by Meera Reed,White Walker,50:51,6
+55,killed by the Night King,Three-eyed raven,51:51,6
+55,suicide by activating an explosive device taking out wights,Leaf,52:40,6
+55,Torn apart by wights,Hodor,54:26,6
+56,Killed by Jaime Lannister,Aerys Targaryen,2:49,6
+57,Died during the War of the Five Kings,Maege Mormont,23:14,6
+57,killed by rogue members of the Brotherhood Without Banners,Brother Ray & villagers,48:13,6
+58,killed by Sandor Clegane,Steve,8:24,6
+58,killed by Sandor Clegane,Riddell,8:26,6
+58,killed by Sandor Clegane,Morgan,8:30,6
+58,killed by Sandor Clegane,Gatins,8:33,6
+58,killed by The Mountain,Faith Militant,12:51,6
+58,killed by Lannister soldier,Brynden Tully,39:39,6
+58,killed by Sandor Clegane,Outlaw,44:26,6
+58,killed by Sandor Clegane,Lem Lemoncloak,44:31,6
+58,Hung by Brotherhood Without Banners,Outlaw,44:34,6
+58,Killed by the Waif ,Lady Crane,47:45,6
+58,Kill by Arya Stark,The Waif ,53:37,6
+59,killed by Grey Worm,Belicho Paenymion,10:24,6
+59,killed by Grey Worm,Razdal mo Eraz,10:24,6
+59,Shot with an Arrow fired by Ramsay Bolton,Rickon Stark,35:26,6
+59,killed by Tormund,Smalljon Umber,47:36,6
+59,Shot with an Arrow fired by Ramsay Bolton,Wun Weg Wun Dar Wun,51:29,6
+59,Eaten alive by his own dogs,Ramsay Bolton,51:13,6
+60,killed by kids,Grand Maester Pycelle,13:07,6
+60,killed by wildfire,Lancel Lannister,17:17,6
+60,killed by wildfire,High Sparrow,17:27,6
+60,killed by wildfire,Margaery Tyrell,17:27,6
+60,killed by wildfire,Loras Tyrell,17:27,6
+60,killed by wildfire,Mace Tyrell,17:27,6
+60,killed by wild fire,Kevan Lannister,17:27,6
+60,Suicide by juming out a window,Tommen Baratheon,22:52,6
+60,killed by Arya Star,Walder Rivers,48:30,6
+60,killed by Arya Star,Lothar Frey,48:30,6
+60,killed by Arya Stark,Walder Frey,49:03,6

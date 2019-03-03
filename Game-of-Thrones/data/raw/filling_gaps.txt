@@ -1,0 +1,302 @@
+{"name":"Arya Stark", "mother":"Catelyn Stark"}
+{"name":"Arya Stark", "father":"Eddard Stark"}
+{"name":"Bran Stark", "mother":"Catelyn Stark"}
+{"name":"Bran Stark", "father":"Eddard Stark"}
+{"name":"Sansa Stark", "mother":"Catelyn Stark"}
+{"name":"Sansa Stark", "father":"Eddard Stark"}
+{"name":"Rickon Stark", "mother":"Catelyn Stark"}
+{"name":"Rickon Stark", "father":"Eddard Stark"}
+{"name":"Jon Snow", "mother":"Lyanna Stark"}
+{"name":"Jon Snow", "father":"Eddard Stark"}
+{"name":"Jon Snow", "child_of":"Rhaegar Targaryen"}
+{"name":"Theon Greyjoy", "mother":"Alannys Harlaw"}
+{"name":"Theon Greyjoy", "father":"Balon Greyjoy"}
+{"name":"Asha Greyjoy", "mother":"Alannys Harlaw"}
+{"name":"Asha Greyjoy", "father":"Balon Greyjoy"}
+{"name":"Tommen Baratheon", "house":"House Baratheon/Lannister"}
+{"name":"Balon Greyjoy", "house":"House Greyjoy"}
+{"name":"Balon Greyjoy", "mother":"Lady of House Sunderly"}
+{"name":"Victarion Greyjoy", "mother":"Lady of House Sunderly"}
+{"name":"Victarion Greyjoy", "father":"Quellon Greyjoy"}
+{"name":"Ramsay Snow", "father":"Roose Bolton"}
+{"name":"Myrcella Baratheon", "mother":"Cersei Lannister"}
+{"name":"Myrcella Baratheon", "father":"Robert Baratheon"}
+{"name":"Shireen Baratheon", "mother":"Selyse Florent"}
+{"name":"Shireen Baratheon", "father":"Stannis Baratheon"}
+{"name":"Renly Baratheon", "mother":"Cassana Baratheon"}
+{"name":"Renly Baratheon", "father":"Steffon Baratheon"}
+{"name":"Stannis Baratheon", "mother":"Cassana Baratheon"}
+{"name":"Catelyn Stark", "mother":"Minisa Whent"}
+{"name":"Catelyn Stark", "father":"Hoster Tully"}
+{"name":"Edmure Tully", "mother":"Minisa Whent"}
+{"name":"Edmure Tully", "father":"Hoster Tully"}
+{"name":"Lysa Arryn", "mother":"Minisa Whent"}
+{"name":"Lysa Arryn", "father":"Hoster Tully"}
+{"name":"Robert Arryn", "mother":"Lysa Arryn"}
+{"name":"Robert Arryn", "father":"Jon Arryn"}
+{"name":"Lyanna Stark", "father":"Rickard Stark"}
+{"name":"Eddard Stark", "father":"Rickard Stark"}
+{"name":"Brandon Stark", "father":"Rickard Stark"}
+{"name":"Benjen Stark", "father":"Rickard Stark"}
+{"name":"Rickard Stark", "mother":"Marna Locke"}
+{"name":"Rickard Stark", "father":"Edwyle Stark"}
+{"name":"Willam Stark", "mother":"Lorra Royce"}
+{"name":"Willam Stark", "father":"Beron Stark"}
+{"name":"Rodrik Stark son of Beron", "mother":"Lorra Royce"}
+{"name":"Rodrik Stark son of Beron", "father":"Beron Stark"}
+{"name":"Artos Stark", "mother":"Lorra Royce"}
+{"name":"Artos Stark", "father":"Beron Stark"}
+{"name":"Rodwell Stark", "mother":"Alys Karstark"}
+{"name":"Rodwell Stark", "father":"Brandon Stark son of Cregan"}
+{"name":"Beron Stark", "mother":"Alys Karstark"}
+{"name":"Beron Stark", "father":"Brandon Stark son of Cregan"}
+{"name":"Brandon Stark son of Cregan", "mother":"Lynara Stark"}
+{"name":"Brandon Stark son of Cregan", "father":"Cregan Stark"}
+{"name":"Cregan Stark", "mother":"Gilliane Glover"}
+{"name":"Cregan Stark", "father":"Rickon Stark son of Benjen"}
+{"name":"Cersei Lannister", "mother":"Joanna Lannister"}
+{"name":"Cersei Lannister", "father":"Tywin Lannister"}
+{"name":"Jaime Lannister", "mother":"Joanna Lannister"}
+{"name":"Jaime Lannister", "father":"Tywin Lannister"}
+{"name":"Tyrion Lannister", "mother":"Joanna Lannister"}
+{"name":"Tyrion Lannister", "father":"Tywin Lannister"}
+{"name":"Joffrey Baratheon", "child_of":"Jaime Lannister"}
+{"name":"Myrcella Baratheon", "child_of":"Jaime Lannister"}
+{"name":"Tommen Baratheon", "child_of":"Jaime Lannister"}
+{"name":"Jonnel Stark", "father":"Cregan Stark"}
+{"name":"Jonnel Stark", "mother":"Lynara Stark"}
+{"name":"Brendan Stark son of Cregan", "father":"Cregan Stark"}
+{"name":"Brendan Stark son of Cregan", "child_of":"N/A"}
+{"name":"Eddard Stark", "mother":"Lyarra Stark"}
+{"name":"Benjen Stark", "mother":"Lyarra Stark"}
+{"name":"Brandon Stark", "mother":"Lyarra Stark"}
+{"name":"Lyanna Stark", "mother":"Lyarra Stark"}
+{"name":"Edwyle Stark", "mother":"Melantha Blackwood"}
+{"name":"Edwyle Stark", "father":"Willam Stark"}
+{"name":"Cerenna Lannister", "mother":"Myranda Lefford"}
+{"name":"Myrielle Lannister", "mother":"Myranda Lefford"}
+{"name":"Daven Lannister", "mother":"Myranda Lefford"}
+{"name":"Cerenna Lannister", "father":"Stafford Lannister"}
+{"name":"Myrielle Lannister", "father":"Stafford Lannister"}
+{"name":"Daven Lannister", "father":"Stafford Lannister"}
+{"name":"Joanna Lannister", "father":"Jason Lannister"}
+{"name":"Joanna Lannister", "mother":"Marla Prester"}
+{"name":"Stafford Lannister", "father":"Jason Lannister"}
+{"name":"Stafford Lannister", "mother":"Marla Prester"}
+{"name":"Tywin Lannister", "father":"Tytos Lannister"}
+{"name":"Kevan Lannister", "father":"Tytos Lannister"}
+{"name":"Genna Lannister", "father":"Tytos Lannister"}
+{"name":"Lancel Lannister", "father":"Kevan Lannister"}
+{"name":"Lancel Lannister", "mother":"Dorna Swyft"}
+{"name":"Willem Lannister", "father":"Kevan Lannister"}
+{"name":"Willem Lannister", "mother":"Dorna Swyft"}
+{"name":"Brandon Stark son of Cregan", "child_of":"N/A"}
+{"name":"Lanna Lannister", "father":"Damion Lannister"}
+{"name":"Lanna Lannister", "mother":"Shiera Crakehall"}
+{"name":"Lucion Lannister", "father":"Damion Lannister"}
+{"name":"Lucion Lannister", "mother":"Shiera Crakehall"}
+{"name":"Damion Lannister", "father":"Damon Lannister son of Jason"}
+{"name":"Damion Lannister", "mother":"Ella Lannister"}
+{"name":"Damon Lannister son of Jason", "father":"Jason Lannister"}
+{"name":"Damon Lannister son of Jason", "child_of":"N/A"}
+{"name":"Damon Lannister son of Jason", "mother":"Alys Stackspear"}
+{"name":"Jason Lannister", "father":"Gerold Lannister"}
+{"name":"Jason Lannister", "mother":"Rohanne Webber"}
+{"name":"Damon Lannister lord", "name":"Damon Lannister"}
+{"name":"Tybolt Lannister", "father":"Damon Lannister"}
+{"name":"Tybolt Lannister", "mother":"Cerissa Brax"}
+{"name":"Gerold Lannister", "father":"Damon Lannister"}
+{"name":"Gerold Lannister", "mother":"Cerissa Brax"}
+{"name":"Tygett Lannister", "father":"Tytos Lannister"}
+{"name":"Tygett Lannister", "mother":"Jeyne Marbrand"}
+{"name":"Tywin Lannister", "mother":"Jeyne Marbrand"}
+{"name":"Kevan Lannister", "mother":"Jeyne Marbrand"}
+{"name":"Genna Lannister", "mother":"Jeyne Marbrand"}
+{"name":"Gerion Lannister", "father":"Tytos Lannister"}
+{"name":"Gerion Lannister", "mother":"Jeyne Marbrand"}
+{"name":"Tyrek Lannister", "father":"Tygett Lannister"}
+{"name":"Tyrek Lannister", "mother":"Darlessa Marbrand"}
+{"name":"Steffon Baratheon", "father":"Ormund Baratheon"}
+{"name":"Steffon Baratheon", "mother":"Rhaelle Targaryen"}
+{"name":"Daenerys Targaryen", "father":"Aerys II Targaryen"}
+{"name":"Daenerys Targaryen", "mother":"Rhaella Targaryen"}
+{"name":"Viserys Targaryen", "father":"Aerys II Targaryen"}
+{"name":"Viserys Targaryen", "mother":"Rhaella Targaryen"}
+{"name":"Rhaegar Targaryen", "father":"Aerys II Targaryen"}
+{"name":"Rhaegar Targaryen", "mother":"Rhaella Targaryen"}
+{"name":"Rhaella Targaryen", "father":"Jaehaerys II Targaryen"}
+{"name":"Rhaella Targaryen", "mother":"Shaera Targaryen"}
+{"name":"Rhaenys Targaryen daughter of Rhaegar", "father":"Rhaegar Targaryen"}
+{"name":"Rhaenys Targaryen daughter of Rhaegar", "mother":"Elia Martell"}
+{"name":"Rhaenys Targaryen daughter of Rhaegar", "child_of":"N/A"}
+{"name":"Aegon Targaryen daughter of Rhaegar", "father":"Rhaegar Targaryen"}
+{"name":"Aegon Targaryen daughter of Rhaegar", "mother":"Elia Martell"}
+{"name":"Aegon Targaryen daughter of Rhaegar", "child_of":"N/A"}
+{"name":"Aegon IV Targaryen", "father":"Aerys II Targaryen"}
+{"name":"Aegon IV Targaryen", "mother":"Rhaella Targaryen"}
+{"name":"Duncan Targaryen", "father":"Aegon V Targaryen"}
+{"name":"Duncan Targaryen", "mother":"Betha Blackwood"}
+{"name":"Rhaelle Targaryen", "father":"Aegon V Targaryen"}
+{"name":"Rhaelle Targaryen", "mother":"Betha Blackwood"}
+{"name":"Theodore Tyrell", "father":"Luthor Tyrell son of Moryn"}
+{"name":"Theodore Tyrell", "mother":"Elyn Norridge"}
+{"name":"Mace Tyrell", "father":"Luthor Tyrell"}
+{"name":"Mace Tyrell", "mother":"Olenna Redwyne"}
+{"name":"Luthor Tyrell", "father":"Unknown father Tyrell"}
+{"name":"Luthor Tyrell", "mother":"Unknown mother Tyrell"}
+{"name":"Moryn Tyrell", "father":"Unknown father Tyrell"}
+{"name":"Moryn Tyrell", "mother":"Unknown mother Tyrell"}
+{"name":"Luthor Tyrell son of Moryn", "father":"Moryn Tyrell"}
+{"name":"Luthor Tyrell son of Moryn", "child_of":"N/A"}
+{"name":"Garlan Tyrell", "father":"Mace Tyrell"}
+{"name":"Garlan Tyrell", "mother":"Alerie Hightower"}
+{"name":"Willas Tyrell", "father":"Mace Tyrell"}
+{"name":"Willas Tyrell", "mother":"Alerie Hightower"}
+{"name":"Loras Tyrell", "father":"Mace Tyrell"}
+{"name":"Loras Tyrell", "mother":"Alerie Hightower"}
+{"name":"Margaery Tyrell", "father":"Mace Tyrell"}
+{"name":"Margaery Tyrell", "mother":"Alerie Hightower"}
+{"name":"Mina Tyrell", "father":"Luthor Tyrell"}
+{"name":"Mina Tyrell", "mother":"Olenna Redwyne"}
+{"name":"Hobber Redwyne", "mother":"Mina Tyrell"}
+{"name":"Hobber Redwyne", "father":"Paxter Redwyne"}
+{"name":"Horas Redwyne", "mother":"Mina Tyrell"}
+{"name":"Horas Redwyne", "father":"Paxter Redwyne"}
+{"name":"Olene Tyrell", "mother":"Elyn Norridge"}
+{"name":"Olene Tyrell", "father":"Luthor Tyrell son of Moryn"}
+{"name":"Medwick Tyrell", "mother":"Elyn Norridge"}
+{"name":"Medwick Tyrell", "father":"Luthor Tyrell son of Moryn"}
+{"name":"Elinor Tyrell", "mother":"Lia Serry"}
+{"name":"Elinor Tyrell", "father":"Theodore Tyrell"}
+{"name":"Luthor Tyrell son of Theodore", "mother":"Lia Serry"}
+{"name":"Luthor Tyrell son of Theodore", "father":"Theodore Tyrell"}
+{"name":"Luthor Tyrell son of Theodore", "child_of":"N/A"}
+{"name":"Oberyn Martell", "mother":"Princess of Dorne"}
+{"name":"Doran Martell", "mother":"Princess of Dorne"}
+{"name":"Mors Martell brother of Doran", "mother":"Princess of Dorne"}
+{"name":"Elia Martell", "mother":"Princess of Dorne"}
+{"name":"Doran Martell", "house":"House Martell"}
+{"name":"Obara Sand", "father":"Oberyn Martell"}
+{"name":"Nymeria Sand", "father":"Oberyn Martell"}
+{"name":"Tyene Sand", "father":"Oberyn Martell"}
+{"name":"Sarella Sand", "father":"Oberyn Martell"}
+{"name":"Elia Sand", "father":"Oberyn Martell"}
+{"name":"Elia Sand", "mother":"Ellaria Sand"}
+{"name":"Obella Sand", "father":"Oberyn Martell"}
+{"name":"Obella Sand", "mother":"Ellaria Sand"}
+{"name":"Dorea Sand", "father":"Oberyn Martell"}
+{"name":"Obella Sand", "mother":"Ellaria Sand"}
+{"name":"Loreza Sand", "father":"Oberyn Martell"}
+{"name":"Loreza Sand", "mother":"Ellaria Sand"}
+{"name":"Aegon Targaryen son of Rhaegar", "father":"Rhaegar Targaryen"}
+{"name":"Aegon Targaryen son of Rhaegar", "mother":"Elia Martell"}
+{"name":"Aegon Targaryen son of Rhaegar", "child_of":"N/A"}
+{"name":"Jon Arryn", "father":"Jasper Arryn"}
+{"name":"Alys Arryn", "father":"Jasper Arryn"}
+{"name":"Stevron Frey", "father":"Walder Frey"}
+{"name":"Stevron Frey", "mother":"Perra Royce"}
+{"name":"Emmon Frey", "father":"Walder Frey"}
+{"name":"Emmon Frey", "mother":"Perra Royce"}
+{"name":"Aenys Frey", "father":"Walder Frey"}
+{"name":"Aenys Frey", "mother":"Perra Royce"}
+{"name":"Ryman Frey", "father":"Stevron Frey"}
+{"name":"Ryman Arryn", "mother":"Corenna Swan"}
+{"name":"Edwyn Frey", "father":"Ryman Frey"}
+{"name":"Petyr Frey", "father":"Ryman Frey"}
+{"name":"Walda Frey", "father":"Edwyn Frey"}
+{"name":"Walda Frey", "mother":"Janyce Hunter"}
+{"name":"Perra Frey", "father":"Petyr Frey"}
+{"name":"Perra Frey", "mother":"Mylenda Caron"}
+{"name":"Maegelle Frey", "father":"Stevron Frey"}
+{"name":"Maegelle Frey", "mother":"Jeyne Lydden"}
+{"name":"Marianne Vance", "father":"Dafyn Vance"}
+{"name":"Marianne Vance", "mother":"Maegelle Frey"}
+{"name":"Walder Vance", "father":"Dafyn Vance"}
+{"name":"Walder Vance", "mother":"Maegelle Frey"}
+{"name":"Patrek Vance", "father":"Dafyn Vance"}
+{"name":"Patrek Vance", "mother":"Maegelle Frey"}
+{"name":"Walton Frey", "father":"Stevron Frey"}
+{"name":"Walton Frey", "mother":"Marsella Weynwood"}
+{"name":"Steffon Frey", "father":"Walton Frey"}
+{"name":"Steffon Frey", "mother":"Deana Hardyng"}
+{"name":"Bryan Frey", "father":"Walton Frey"}
+{"name":"Bryan Frey", "mother":"Deana Hardyng"}
+{"name":"Walda Frey daughter of Walton", "father":"Walton Frey"}
+{"name":"Walda Frey daughter of Walton", "mother":"Deana Hardyng"}
+{"name":"Harlon Greyjoy", "father":"Quellon Greyjoy"}
+{"name":"Harlon Greyjoy", "mother":"Lady of House Stonetree"}
+{"name":"Quenton Greyjoy", "father":"Quellon Greyjoy"}
+{"name":"Quenton Greyjoy", "mother":"Lady of House Stonetree"}
+{"name":"Donel Greyjoy", "father":"Quellon Greyjoy"}
+{"name":"Donel Greyjoy", "mother":"Lady of House Stonetree"}
+{"name":"Rodrik Greyjoy", "father":"Balon Greyjoy"}
+{"name":"Rodrik Greyjoy", "mother":"Alannys Harlaw"}
+{"name":"Maron Greyjoy", "father":"Balon Greyjoy"}
+{"name":"Maron Greyjoy", "mother":"Alannys Harlaw"}
+{"name":"Urrigon Greyjoy", "father":"Quellon Greyjoy"}
+{"name":"Urrigon Greyjoy", "mother":"Lady of House Sunderly"}
+{"name":"Aeron Greyjoy", "father":"Quellon Greyjoy"}
+{"name":"Aeron Greyjoy", "mother":"Lady of House Sunderly"}
+{"name":"Robin Greyjoy", "father":"Quellon Greyjoy"}
+{"name":"Robin Greyjoy", "mother":"Lady of House Piper"}
+{"name":"Ryman Frey", "mother":"Corenna Swann"}
+{"name":"Walda Frey daughter of Edwyn", "father":"Edwyn Frey"}
+{"name":"Walda Frey daughter of Edwyn", "mother":"Janyce Hunter"}
+{"name":"Aegon Frey son of Stevron", "father":"Stevron Frey"}
+{"name":"Aegon Frey son of Stevron", "mother":"Jeyne Lydden"}
+{"name":"Cleos Frey", "father":"Emmon Frey"}
+{"name":"Cleos Frey", "mother":"Genna Lannister"}
+{"name":"Tywin Frey", "father":"Cleos Frey"}
+{"name":"Tywin Frey", "mother":"Jeyne Darry"}
+{"name":"Willem Frey", "father":"Cleos Frey"}
+{"name":"Willem Frey", "mother":"Jeyne Darry"}
+{"name":"Lyonel Frey", "father":"Emmon Frey"}
+{"name":"Lyonel Frey", "mother":"Genna Lannister"}
+{"name":"Tion Frey", "father":"Emmon Frey"}
+{"name":"Tion Frey", "mother":"Genna Lannister"}
+{"name":"Walder Frey son of Emmon", "father":"Emmon Frey"}
+{"name":"Walder Frey son of Emmon", "mother":"Genna Lannister"}
+{"name":"Amerei Frey", "father":"Merrett Frey"}
+{"name":"Amerei Frey", "mother":"Mariya Darry"}
+{"name":"Walda Frey daughter of Merrett", "father":"Merrett Frey"}
+{"name":"Walda Frey daughter of Merrett", "mother":"Mariya Darry"}
+{"name":"Walder Frey son of Merrett", "father":"Merrett Frey"}
+{"name":"Walder Frey son of Merrett", "mother":"Mariya Darry"}
+{"name":"Marissa Frey", "father":"Merrett Frey"}
+{"name":"Marissa Frey", "mother":"Mariya Darry"}
+{"name":"Merrett Frey", "father":"Walder Frey"}
+{"name":"Merrett Frey", "mother":"Amarei Crakehall"}
+{"name":"Roslin Frey", "father":"Walder Frey"}
+{"name":"Roslin Frey", "mother":"Bethany Rosby"}
+{"name":"Olyvar Frey", "father":"Walder Frey"}
+{"name":"Olyvar Frey", "mother":"Bethany Rosby"}
+{"name":"Willamen Frey", "father":"Walder Frey"}
+{"name":"Willamen Frey", "mother":"Bethany Rosby"}
+{"name":"Benfrey Frey", "father":"Walder Frey"}
+{"name":"Benfrey Frey", "mother":"Bethany Rosby"}
+{"name":"Perwyn Frey", "father":"Walder Frey"}
+{"name":"Perwyn Frey", "mother":"Bethany Rosby"}
+{"name":"Willam Stark", "spouse": "Lyanna Glover"}
+{"name":"Sansa Stark", "spouse": "Ramsay Snow"}
+{"name":"Cregan Stark", "spouse" :"Lynara Stark"}
+{"name":"Steffon Baratheon", "spouse":"Cassana Baratheon"}
+{"name":"Tommen Baratheon", "spouse":"Margaery Tyrell"}
+{"name":"Joffrey Baratheon", "spouse":"Margaery Tyrell"}
+{"name":"Jason Lannister", "spouse":"Alys Stackspear"}
+{"name":"Jason Lannister", "spouse": "Marla Prester"}
+{"name":"Gerold Lannister", "spouse":"Rohanne Webber"}
+{"name":"Aerys II Targaryen", "spouse":"Rhaella Targaryen"}
+{"name":"Daenerys Targaryen", "spouse":"Hizdahr zo Loraq"}
+{"name":"Hizdahr zo Loraq", "spouse":"Daenerys Targaryen"}
+{"name":"Margaery Tyrell", "spouse":"Joffrey Baratheon"}
+{"name":"Margaery Tyrell", "spouse":"Tommen Baratheon"}
+{"name":"Elyn Norridge", "spouse":"Luthor Tyrell son of Moryn"}
+{"name":"Jon Arryn", "spouse":"Lysa Arryn"}
+{"name":"Jon Arryn", "spouse":"Rowena Arryn"}
+{"name":"Stevron Frey", "spouse":"Marsella Waynwood"}
+{"name":"Stevron Frey", "spouse":"Jeyne Lydden"}
+{"name":"Lysa Arryn", "spouse":"Petyr Baelish"}
+{"name":"Quellon Greyjoy", "spouse":"Lady of House Stonetree"}
+{"name":"Quellon Greyjoy", "spouse":"Lady of House Sunderly"}
+{"name":"Quellon Greyjoy", "spouse":"Lady of House Piper"}
+{"name":"Robert Baratheon", "mother": "Cassana Baratheon", "father": "Steffon Baratheon", "spouse": "Cersei Lannister"}

@@ -1,0 +1,61 @@
+episode_number,episode_id,name,season_id,link
+1,1,Winter is Coming,1,http://gameofthrones.wikia.com/wiki/Winter_is_Coming
+2,2,The Kingsroad,1,http://gameofthrones.wikia.com/wiki/The_Kingsroad
+3,3,Lord Snow,1,http://gameofthrones.wikia.com/wiki/Lord_Snow
+4,4,"Cripples, Bastards and Broken Things",1,"http://gameofthrones.wikia.com/wiki/Cripples,_Bastards_and_Broken_Things"
+5,5,The Wolf and the Lion,1,http://gameofthrones.wikia.com/wiki/The_Wolf_and_the_Lion
+6,6,A Golden Crown,1,http://gameofthrones.wikia.com/wiki/A_Golden_Crown
+7,7,You Win or You Die,1,http://gameofthrones.wikia.com/wiki/You_Win_or_You_Die
+8,8,The Pointy End,1,http://gameofthrones.wikia.com/wiki/The_Pointy_End
+9,9,Baelor,1,http://gameofthrones.wikia.com/wiki/Baelor
+10,10,Fire and Blood,1,http://gameofthrones.wikia.com/wiki/Fire_and_Blood
+1,11,The North Remembers,2,http://gameofthrones.wikia.com/wiki/The_North_Remembers
+2,12,The Night Lands,2,http://gameofthrones.wikia.com/wiki/The_Night_Lands
+3,13,What is Dead May Never Die,2,http://gameofthrones.wikia.com/wiki/What_is_Dead_May_Never_Die
+4,14,Garden of Bones,2,http://gameofthrones.wikia.com/wiki/Garden_of_Bones
+5,15,The Ghost of Harrenhal,2,http://gameofthrones.wikia.com/wiki/The_Ghost_of_Harrenhal
+6,16,The Old Gods and the New,2,http://gameofthrones.wikia.com/wiki/The_Old_Gods_and_the_New
+7,17,A Man Without Honor,2,http://gameofthrones.wikia.com/wiki/A_Man_Without_Honor
+8,18,The Prince of Winterfell,2,http://gameofthrones.wikia.com/wiki/The_Prince_of_Winterfell
+9,19,Blackwater,2,http://gameofthrones.wikia.com/wiki/Blackwater
+10,20,Valar Morghulis,2,http://gameofthrones.wikia.com/wiki/Valar_Morghulis
+1,21,Valar Dohaeris,3,http://gameofthrones.wikia.com/wiki/Valar_Dohaeris
+2,22,"Dark Wings, Dark Words",3,"http://gameofthrones.wikia.com/wiki/Dark_Wings,_Dark_Words"
+3,23,Walk of Punishment,3,http://gameofthrones.wikia.com/wiki/Walk_of_Punishment
+4,24,And Now His Watch is Ended,3,http://gameofthrones.wikia.com/wiki/And_Now_His_Watch_is_Ended
+5,25,Kissed by Fire,3,http://gameofthrones.wikia.com/wiki/Kissed_by_Fire
+6,26,The Climb,3,http://gameofthrones.wikia.com/wiki/The_Climb
+7,27,The Bear and the Maiden Fair,3,http://gameofthrones.wikia.com/wiki/The_Bear_and_the_Maiden_Fair_(episode)
+8,28,Second Sons,3,http://gameofthrones.wikia.com/wiki/Second_Sons_(episode)
+9,29,The Rains of Castamere,3,http://gameofthrones.wikia.com/wiki/The_Rains_of_Castamere_(episode)
+10,30,Mhysa,3,http://gameofthrones.wikia.com/wiki/Mhysa
+1,31,Two Swords,4,http://gameofthrones.wikia.com/wiki/Two_Swords
+2,32,The Lion and the Rose,4,http://gameofthrones.wikia.com/wiki/The_Lion_and_the_Rose
+3,33,Breaker of Chains,4,http://gameofthrones.wikia.com/wiki/Breaker_of_Chains
+4,34,Oathkeeper,4,http://gameofthrones.wikia.com/wiki/Oathkeeper
+5,35,First of His Name,4,http://gameofthrones.wikia.com/wiki/First_of_His_Name
+6,36,The Laws of Gods and Men,4,http://gameofthrones.wikia.com/wiki/The_Laws_of_Gods_and_Men
+7,37,Mockingbird,4,http://gameofthrones.wikia.com/wiki/Mockingbird
+8,38,The Mountain and the Viper,4,http://gameofthrones.wikia.com/wiki/The_Mountain_and_the_Viper
+9,39,The Watchers on the Wall,4,http://gameofthrones.wikia.com/wiki/The_Watchers_on_the_Wall
+10,40,The Children,4,http://gameofthrones.wikia.com/wiki/The_Children
+1,41,The Wars to Come,5,http://gameofthrones.wikia.com/wiki/The_Wars_to_Come
+2,42,The House of Black and White,5,http://gameofthrones.wikia.com/wiki/The_House_of_Black_and_White
+3,43,High Sparrow,5,http://gameofthrones.wikia.com/wiki/High_Sparrow_(episode)
+4,44,Sons of the Harpy,5,http://gameofthrones.wikia.com/wiki/Sons_of_the_Harpy_(episode)
+5,45,Kill the Boy,5,http://gameofthrones.wikia.com/wiki/Kill_the_Boy
+6,46,"Unbowed, Unbent, Unbroken",5,"http://gameofthrones.wikia.com/wiki/Unbowed,_Unbent,_Unbroken"
+7,47,The Gift,5,http://gameofthrones.wikia.com/wiki/The_Gift_(episode)
+8,48,Hardhome,5,http://gameofthrones.wikia.com/wiki/Hardhome_(episode)
+9,49,The Dance of Dragons,5,http://gameofthrones.wikia.com/wiki/The_Dance_of_Dragons
+10,50,Mother's Mercy,5,http://gameofthrones.wikia.com/wiki/Mother%27s_Mercy
+1,51,The Red Woman,6,
+2,52,Home,6,
+3,53,Oathbreaker,6,
+4,54,Book of the Stranger,6,
+5,55,The Door,6,
+6,56,Blood of My Blood,6,
+7,57,The Broken Man,6,
+8,58,No One,6,
+9,59,Battle of the Bastards,6,
+10,60,The Winds of Winter,6,
