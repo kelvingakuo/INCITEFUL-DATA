@@ -40,8 +40,8 @@ def main():
 
 	# Get actual episode number from epsDF
 	mergedDF = deathsDF.merge(epsDF, how = 'inner', on = 'episode_id')
-	mergedDF.drop(['episode_id', 'time', 'season_id', 'link', 'name_y'], inplace= True, axis = 1)
-	mergedDF.rename(columns = {'name_x': 'name', 'episode_number': 'episode'}, inplace = True)
+	mergedDF.drop(['time', 'season_id', 'link'], inplace= True, axis = 1)
+	mergedDF.rename(columns = {'name_x': 'name', 'episode_number': 'episode', 'name_y': 'episode_name'}, inplace = True)
 
 	mergedDF['cause_of_death'] = mergedDF['killed_by'].apply(lambda x: splitCauseOfDeath(x, 1))
 	mergedDF['perpetrator'] = mergedDF['killed_by'].apply(lambda y: splitCauseOfDeath(y, 2))
@@ -50,7 +50,7 @@ def main():
 	mergedDF.drop(['killed_by'], inplace= True, axis = 1)
 
 
-	processedCSV = '../../data/interim/all_deaths.csv'
+	processedCSV = '../../data/interim/all_deaths_sn1_sn6.csv'
 
 	mergedDF.to_csv(processedCSV, index = False)
 
