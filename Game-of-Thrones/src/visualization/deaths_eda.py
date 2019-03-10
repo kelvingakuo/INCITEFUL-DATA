@@ -34,7 +34,7 @@ class DeathsEDA(object):
 
 
 	def whenDeathsOccur(self):
-		""" Slice and dice the data for visualisation purposes
+		""" Slice and dice the data for visualisation purposes about death timings
 		"""
 		# 1. Deaths per season
 		seasons = self.deathsDF[['season']]
@@ -84,17 +84,34 @@ class DeathsEDA(object):
 		mostDeaths = episodes.iloc[0]
 		epName = mostDeaths.episode_name
 		epInfo = self.deathsDF.loc[self.deathsDF['episode_name'] == epName] # DF of info about episode with most deaths
+		epInfo.drop(['episode_id', 'defined_death'], inplace = True, axis = 1)
+		self.ep_with_most_deaths = epInfo# Plot the timeline of death. Somehow
 
 		
 	
 
-	def vizDeathsTimes(self):
+	def vizwhenDeathsOccur(self):
 		"""Visualise computations done in whenDeathsOccur()
 		"""
 		self.whenDeathsOccur()
 		# self.seasonal_deaths
 		# self.episodal_deaths
 		# self.minutal_deaths
+		# self.ep_with_most_deaths
+
+
+
+	def waysToDie(self):
+		""" Slice and dice the data for visualisation purposes about causes of death
+		"""
+		pass
+
+
+	def vizwaysToDie(self):
+		"""Visualise computations done in waysToDie()
+		"""
+		self.waysToDie()
+
 
 
 
@@ -110,4 +127,5 @@ if __name__ == '__main__':
 
 
 	vizes = DeathsEDA(deathsCSV, charsCSV)
-	vizes.vizDeathsTimes()
+	vizes.vizwhenDeathsOccur()
+	vizes.vizwaysToDie()
