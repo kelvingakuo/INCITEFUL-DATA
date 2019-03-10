@@ -11,7 +11,6 @@ pd.options.mode.chained_assignment = None
 
 
 
-# Killed by
 # Do main chars or supporting chars die
 # Character feature e.g. nobility, gender vs death
 #
@@ -26,10 +25,11 @@ def nonExistentEpisode(ls):
 
 
 class DeathsEDA(object):
-	def __init__(self, deathsPath, charsPath):
+	def __init__(self, deathsPath, charsPath, hboPath):
+		""" Creates dataframes from deaths, all characters CSV files
+		"""
 		self.deathsDF = pd.read_csv(deathsPath)
 		self.charsDF = pd.read_csv(charsPath)
-
 
 
 
@@ -87,9 +87,6 @@ class DeathsEDA(object):
 		epInfo.drop(['episode_id', 'defined_death'], inplace = True, axis = 1)
 		self.ep_with_most_deaths = epInfo# Plot the timeline of death. Somehow
 
-		
-	
-
 	def vizwhenDeathsOccur(self):
 		"""Visualise computations done in whenDeathsOccur()
 		"""
@@ -104,13 +101,54 @@ class DeathsEDA(object):
 	def waysToDie(self):
 		""" Slice and dice the data for visualisation purposes about causes of death
 		"""
-		pass
+		definedDeaths = self.deathsDF[self.deathsDF['defined_death'] == 1][['cause_of_death', 'perpetrator']]
+		otherDeaths = self.deathsDF[self.deathsDF['defined_death'] == 0][['cause_of_death', 'perpetrator']] # Deaths not split into 'cause & perpetrator'
 
+		definedDeaths['cause_of_death'] = definedDeaths['cause_of_death'].astype(str).str.lower()
+		definedDeaths['cause_of_death'] = definedDeaths['cause_of_death'].replace({'kill': 'killed'})
+
+
+		# 1. Cause of death e.g. most die, suicide etc
+		definedDeaths['death_count'] = definedDeaths.groupby(['cause_of_death'])['cause_of_death'].transform('size')
+		definedDeaths.drop_duplicates(['cause_of_death'], keep='first', inplace=True)
+		definedDeaths.drop(['perpetrator'], inplace = True, axis = 1)
+		definedDeaths.sort_values('death_count', inplace = True, ascending = False)
+
+		otherDeaths['death_count'] = 1
+		otherDeaths.drop(['perpetrator'], inplace = True, axis = 1)
+
+		totalDeathCount = pd.concat([definedDeaths, otherDeaths])
+		self.ways_to_die = totalDeathCount # **********Plot ways to die. Comment on most gruesome way(s) to die
+		
+		# 2. Who kills the most i.e. frequent perpetrator
+		killed = self.deathsDF[self.deathsDF['cause_of_death'] == 'killed'][['cause_of_death', 'perpetrator']]
+		killed['death_count'] = killed.groupby(['perpetrator'])['perpetrator'].transform('size')
+		killed.drop_duplicates(['perpetrator'], keep='first', inplace=True)
+		killed.drop(['cause_of_death'], inplace = True, axis = 1)
+		killed.sort_values('death_count', inplace = True, ascending = False)
+		self.killers = killed # **********Plot murderers
 
 	def vizwaysToDie(self):
 		"""Visualise computations done in waysToDie()
 		"""
 		self.waysToDie()
+		# self.ways_to_die
+		# self.killers
+
+
+
+	def charFeatureVsDeath(self):
+		""" Slice and dice the data for visualisation purposes about character features vs death
+		"""
+		print(self.deathsDF.head(10))
+		print(self.charsDF.head(10))
+
+
+
+	def vizcharFeatureVsDeath(self):
+		"""Visualise computations done in charFeatureVsDeath()
+		"""
+		self.charFeatureVsDeath()
 
 
 
@@ -123,9 +161,10 @@ class DeathsEDA(object):
 
 if __name__ == '__main__':
 	deathsCSV = '../../data/interim/all_deaths_sn1_sn6.csv'
-	charsCSV = '../../data/interim/character_features.csv'
+	charsCSV = '../../data/interim/character_features_hbo.csv'
 
 
 	vizes = DeathsEDA(deathsCSV, charsCSV)
 	vizes.vizwhenDeathsOccur()
 	vizes.vizwaysToDie()
+	vizes.vizcharFeatureVsDeath()

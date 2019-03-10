@@ -1,5 +1,5 @@
 # Clean up the downloaded character data as per https://www.kaggle.com/mylesoneill/game-of-thrones -- character_predictions.csv
-# Cleaned CSV in /data/interim/character_features.csv
+# Cleaned CSV in /data/raw/character_attrs.csv
 import ast
 import pandas as pd
 import json
@@ -29,5 +29,5 @@ for add in additions:
 			df1.loc[df1['name'] == add['name'], k] = v
 
 
-charactersCSV = '../../data/interim/character_features.csv' 
+charactersCSV = '../../data/raw/character_attrs.csv' 
 df1.to_csv(charactersCSV, index = False)
