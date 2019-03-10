@@ -1,4 +1,5 @@
-# Clean up the downloaded character data as per https://www.kaggle.com/mylesoneill/game-of-thrones -- character_predictions
+# Clean up the downloaded character data as per https://www.kaggle.com/mylesoneill/game-of-thrones -- character_predictions.csv
+# Cleaned CSV in /data/interim/character_features.csv
 import ast
 import pandas as pd
 import json
