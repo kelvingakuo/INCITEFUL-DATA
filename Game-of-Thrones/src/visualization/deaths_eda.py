@@ -1,12 +1,8 @@
-# Vizes involving deaths. From /data/interim/all_deaths_sn1_sn6.csv
+# Computations for vizes involving deaths. From /data/interim/all_deaths_sn1_sn6.csv
 
-import matplotlib.pyplot as plt
 import pandas as pd
 import re
-import seaborn as sns
 
-
-sns.set(style='whitegrid')
 pd.options.mode.chained_assignment = None
 
 
@@ -25,11 +21,12 @@ def nonExistentEpisode(ls):
 
 
 class DeathsEDA(object):
-	def __init__(self, deathsPath, charsPath, hboPath):
-		""" Creates dataframes from deaths, all characters CSV files
+	def __init__(self, deathsPath, charsPath, levelPath):
+		""" Creates dataframes from deaths, all characters, and character level CSV files
 		"""
 		self.deathsDF = pd.read_csv(deathsPath)
 		self.charsDF = pd.read_csv(charsPath)
+		self.levelDF = pd.read_csv(levelPath)
 
 
 
@@ -87,16 +84,7 @@ class DeathsEDA(object):
 		epInfo.drop(['episode_id', 'defined_death'], inplace = True, axis = 1)
 		self.ep_with_most_deaths = epInfo# Plot the timeline of death. Somehow
 
-	def vizwhenDeathsOccur(self):
-		"""Visualise computations done in whenDeathsOccur()
-		"""
-		self.whenDeathsOccur()
-		# self.seasonal_deaths
-		# self.episodal_deaths
-		# self.minutal_deaths
-		# self.ep_with_most_deaths
-
-
+	
 
 	def waysToDie(self):
 		""" Slice and dice the data for visualisation purposes about causes of death
@@ -128,43 +116,33 @@ class DeathsEDA(object):
 		killed.sort_values('death_count', inplace = True, ascending = False)
 		self.killers = killed # **********Plot murderers
 
-	def vizwaysToDie(self):
-		"""Visualise computations done in waysToDie()
+	
+	def charBookFeatureVsDeath(self):
+		""" Slice and dice the data for visualisation purposes about character features vs death, as per the book features
 		"""
-		self.waysToDie()
-		# self.ways_to_die
-		# self.killers
+		#deadBookDF = self.charsDF.loc[self.charsDF['alive'] == 0] # Those dead in the books
+		#deadShowDF = self.deathsDF # Those dead on the show
+
+		# Too many nulls on the deadBookDF. Viable columns: male[0 | 1], book1[0 | 1], book2, book3, book4, book5, married[0 | 1], nobility, number_of_dead_relations
+
+		self.relationWithGender = self.charsDF[['alive', 'male']]
+		self.relationWithBook1 = self.charsDF[['alive', 'book1']]
+		self.relationWithBook2 = self.charsDF[['alive', 'book2']]
+		self.relationWithBook3 = self.charsDF[['alive', 'book3']]
+		self.relationWithBook5 = self.charsDF[['alive', 'book5']]
+		self.relationWithMarital = self.charsDF[['alive', 'married']]
+		self.relationWithRelations = self.charsDF[['alive', 'number_of_dead_relations']]
 
 
 
-	def charFeatureVsDeath(self):
-		""" Slice and dice the data for visualisation purposes about character features vs death
+	def charLevelVsDeath(self):
+		""" Slice and sice the data for visualisation purposes about chararacter level (main vs supporting) vs death
 		"""
-		print(self.deathsDF.head(10))
-		print(self.charsDF.head(10))
+		#print(self.levelDF)
+		#print(self.deathsDF)
 
-
-
-	def vizcharFeatureVsDeath(self):
-		"""Visualise computations done in charFeatureVsDeath()
-		"""
-		self.charFeatureVsDeath()
+		self.deadCharLevelDF = self.deathsDF.merge(self.levelDF, on = 'name')
 
 
 
 
-		
-
-
-
-
-
-if __name__ == '__main__':
-	deathsCSV = '../../data/interim/all_deaths_sn1_sn6.csv'
-	charsCSV = '../../data/interim/character_features_hbo.csv'
-
-
-	vizes = DeathsEDA(deathsCSV, charsCSV)
-	vizes.vizwhenDeathsOccur()
-	vizes.vizwaysToDie()
-	vizes.vizcharFeatureVsDeath()

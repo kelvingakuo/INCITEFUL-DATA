@@ -9,8 +9,8 @@ csvFile = '../../data/raw/character_features.csv'
 df = pd.read_csv(csvFile)
 
 
-df.drop(['S.No', 'actual', 'pred', 'alive', 'plod', 'DateoFdeath', 'boolDeadRelations', 'isPopular', 'popularity', 'isAlive'], axis = 1, inplace = True)
-df.rename(columns = {'dateOfBirth': 'date_of_birth', 'isAliveMother': 'mother_is_alive', 'isAliveFather': 'father_is_alive', 'isAliveHeir': 'heir_is_alive', 'isAliveSpouse': 'spouse_is_alive', 'isMarried': 'married', 'isNoble': 'nobility', 'numDeadRelations':'number_of_dead_relations'}, inplace = True)
+df.drop(['S.No', 'actual', 'pred', 'alive', 'plod', 'DateoFdeath', 'boolDeadRelations', 'isPopular', 'popularity'], axis = 1, inplace = True)
+df.rename(columns = {'dateOfBirth': 'date_of_birth', 'isAliveMother': 'mother_is_alive', 'isAliveFather': 'father_is_alive', 'isAliveHeir': 'heir_is_alive', 'isAliveSpouse': 'spouse_is_alive', 'isMarried': 'married', 'isNoble': 'nobility', 'numDeadRelations':'number_of_dead_relations', 'isAlive': 'alive'}, inplace = True)
 
 df1 = df
 

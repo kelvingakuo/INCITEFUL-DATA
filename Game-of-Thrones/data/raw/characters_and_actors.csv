@@ -1,5 +1,5 @@
 character_name,character_picture,played_by
-Eddard ?Ned? Stark,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/eddard-ned-stark-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Sean Bean
+Eddard Ned Stark,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/eddard-ned-stark-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Sean Bean
 Robert Baratheon,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/robert-baratheon-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Mark Addy
 Tyrion Lannister,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/tyrion-lannister-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Peter Dinklage
 Cersei Lannister,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/cersei-lannister-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Lena Headey
@@ -16,8 +16,8 @@ Rickon Stark,https://hbo.com/content/dam/hbodata/series/game-of-thrones/characte
 Joffrey Baratheon,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/joffrey-baratheon-512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Jack Gleeson
 Jorah Mormont,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/jorah-mormont-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Iain Glen
 Theon Greyjoy,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/theon-greyjoy-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Alfie Allen
-Petyr Baelish (?Littlefinger?),https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/petyr-baelish-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Aidan Gillen
-Sandor Clegane (?The Hound?),https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/sandor-clegane-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Rory McCann
+Petyr Baelish (Littlefinger),https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/petyr-baelish-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Aidan Gillen
+Sandor Clegane (The Hound),https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/sandor-clegane-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Rory McCann
 Samwell Tarly,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/samwell-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,John Bradley
 Renly Baratheon,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s2/renly-baratheon-512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Gethin Anthony
 Ros,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/ros-512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Esme Bianco
@@ -52,7 +52,7 @@ Gilly,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s6/gi
 Podrick Payne,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/podrick-payne-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Daniel Portman
 Melisandre,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/melisandre-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Carice van Houten
 Yara Greyjoy,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/yara-greyjoy-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Gemma Whelan
-Jaqen H?ghar,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/jaqen-hghar-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Tom Wlaschiha
+Jaqen Hghar,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/jaqen-hghar-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Tom Wlaschiha
 Grey Worm,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s3/grey-worm-512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Jacob Anderson
 Beric Dondarrion,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/beric-dondarron-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Richard Dormer
 Missandei,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/missandei-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Nathalie Emmanuel
@@ -63,7 +63,7 @@ Olenna Tyrell,https://hbo.com/content/dam/hbodata/series/game-of-thrones/charact
 Thoros of Myr,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/thoros-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Paul Kaye
 Orell,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/orell-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Mackenzie Crook
 Qyburn,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/qyburn-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Anton Lesser
-Brynden Tully (?The Blackfish?),https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/blackfish-tully-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Clive Russell
+Brynden Tully (The Blackfish),https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/blackfish-tully-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Clive Russell
 Tommen Baratheon,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/tommon-baratheon-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Dean-charles Chapman
 Daario Naharis,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/daario-naharis-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Michiel Huisman
 Oberyn Martell,https://hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/oberyn-512x512.jpg/_jcr_content/renditions/cq5dam.web.130.130.jpeg,Pedro Pascal
