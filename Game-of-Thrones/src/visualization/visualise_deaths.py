@@ -7,7 +7,14 @@ import seaborn as sns
 from deaths_eda import DeathsEDA
 
 
-sns.set(style='whitegrid')
+sns.set(style='darkgrid')
+
+def createTitleAndLabel(title, xLbl, yLbl, xLim = None, yLim = None):
+	plt.title(title, weight = 'bold', fontsize = 15, y = 1.03)
+	plt.xlabel(xLbl, weight = 'bold')
+	plt.ylabel(yLbl, weight = 'bold')
+	plt.xlim(xLim, None)
+	plt.ylim(yLim, None)
 
 class DeathsVizes(DeathsEDA):
 	def __init__(self, deathsPath, charsPath, levelPath):
@@ -17,12 +24,18 @@ class DeathsVizes(DeathsEDA):
 		"""Visualise computations done in whenDeathsOccur()
 		"""
 		self.whenDeathsOccur()
-		sns.lineplot(x = 'season', y = 'deaths_per_season', data = self.seasonal_deaths)
-		plt.show()
+		#sns.lineplot(x = 'season', y = 'deaths_per_season', data = self.seasonal_deaths)
+		#createTitleAndLabel('GoT NUMBER OF DEATHS PER SEASON', 'Season', 'Number of deaths', 0, 0)
+		#plt.show()
+
+		#sns.barplot(x = 'time_range', y = 'deaths_per_range', data = self.minutal_deaths)
+		#createTitleAndLabel('GoT WHEN DEATHS OCCUR IN AN EPISODE', 'Time', 'Number of deaths')
+		#plt.show()
 
 		# self.episodal_deaths
-		# self.minutal_deaths
-		# self.ep_with_most_deaths
+
+		# S06E10 had most deaths at 11 deaths. Here is a breakdown...
+		print(self.ep_with_most_deaths)
 
 
 	def vizwaysToDie(self):
