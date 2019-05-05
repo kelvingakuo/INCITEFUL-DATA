@@ -2,3 +2,5 @@
 */data/
 */logs.log
 */**/*.pyc/
+Neural-Style-Transfer/Model/gen_imgs/*
+*/**/__pycache__/

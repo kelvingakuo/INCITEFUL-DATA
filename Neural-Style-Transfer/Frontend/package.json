@@ -1,0 +1,14 @@
+{
+  "name": "Paint-like-the-OGs",
+  "version": "1.0.0",
+  "description": "The frontend for the served model i.e. the website",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon index.js",
+    "prod": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
