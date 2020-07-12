@@ -1,1 +1,1 @@
-The frontend for the served model i.e. the website
+The UI to style and see styled pictures

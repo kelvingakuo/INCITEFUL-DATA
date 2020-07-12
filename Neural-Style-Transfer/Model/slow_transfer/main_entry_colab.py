@@ -1,12 +1,13 @@
-import logging
+import glob
 from keras.applications import vgg19
 from keras.preprocessing.image import save_img
 from keras import backend as K
+import logging
+import os
 from scipy.optimize import fmin_l_bfgs_b
 
 
 # My modules...
-from utils.args_parser import parser
 from utils.log_config import logger
 
 from preprocessing import preprocessImg
@@ -21,9 +22,9 @@ from losses import variationLoss
 
 from losses import Evaluator
 
-def main(contentImg, styleImg):
+def main(contentImg, styleImg, saveImgPath):
 	variationWeight = 1.0
-	styleWeight = 1.0
+	styleWeight = 1.5
 	contentWeight = 0.75
 	nRows, nCols = baseParams(contentImg)
 
@@ -41,21 +42,21 @@ def main(contentImg, styleImg):
 	layerDesc = getLayers(model)
 
 	totalLoss = K.variable(0.0)
-	layerFeatures = layerDesc['block5_conv2']
-	contentFeatures = layerFeatures[0, :, :, :]
-	genFeatures = layerFeatures[2, :, :, :]
+	contentLayers = layerDesc['block5_conv2']
+	contentFeatures = contentLayers[0, :, :, :]
+	genFeatures = contentLayers[2, :, :, :]
 	totalLoss += contentWeight * contentLoss(contentFeatures, genFeatures)
 
-	featuresLayers = ['block1_conv1', 'block2_conv1','block3_conv1', 'block4_conv1','block5_conv1']
+	styleLayers = ['block1_conv1', 'block2_conv1','block3_conv1', 'block4_conv1','block5_conv1']
 
-	for layer in featuresLayers:
+	for layer in styleLayers:
 		layerFeatures = layerDesc[layer]
 
 		styleFeatures = layerFeatures[1, :, :, :]
 		genFeatures = layerFeatures[2, :, :, :]
 		theStLoss = styleLoss(styleFeatures, genFeatures, nRows, nCols)
 
-		totalLoss += (styleWeight / len(featuresLayers)) * theStLoss
+		totalLoss += (styleWeight / len(styleLayers)) * theStLoss
 
 	totalLoss += variationWeight * variationLoss(genImage, nRows, nCols)
 
@@ -75,10 +76,10 @@ def main(contentImg, styleImg):
 	x = preprocessImg(contentImg, vgg19, nRows, nCols)
 	for i in range(20):
 		logger.debug('ITERATION: {}'.format(i))
-		x, min_val, info = fmin_l_bfgs_b(evaluator.loss, x.flatten(), fprime = evaluator.grads, maxfun=20)
+		x, _, _ = fmin_l_bfgs_b(evaluator.loss, x.flatten(), fprime = evaluator.grads, maxfun = 30)
 	
 		img = depreprocessImg(x.copy(), K, nRows, nCols)
-		fname = 'gen_imgs/new_weights_generated_img_at_iteration_%d.png' % i
+		fname = saveImgPath + '/generated_img_at_iteration_%d.png' % i
 		save_img(fname, img)
 
 		logger.info('Saved iteration: {} as {}'.format(i, fname))
@@ -86,16 +87,24 @@ def main(contentImg, styleImg):
 
 
 if __name__ == "__main__":
-	args = parser.parse_args()
-	if(args.verbose):
-		logger.setLevel(logging.DEBUG)
+	logger.setLevel(logging.DEBUG)
 
-	if(args.debug):
-		logger.setLevel(logging.INFO)
+	content_path = 'content_image.jpg'
 
-	content_path = args.content_image
-	style_path = args.style_image
+	styles = glob.glob('styles/*.jpg')
+	for style in styles:
+		style_path = style
+		logger.info('Styling content image with: {}'.format(style_path))
 
-	main(content_path, style_path)
+
+		logger.info('Creating iters folder for style')
+		base = os.path.basename(style_path)
+		iters = os.path.splitext(base)[0]
+		save_path = 'gen_imgs/'+iters
+		os.mkdir(save_path)
+		logger.info('Created iters folder: {}'.format(save_path))
+
+
+		main(content_path, style_path, save_path)
 
 

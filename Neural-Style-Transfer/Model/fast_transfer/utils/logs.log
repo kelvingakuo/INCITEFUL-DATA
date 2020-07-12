@@ -12,3 +12,9 @@
 2019-05-05 02:50:40,427 : DEBUG : ITERATION: 0
 2019-05-05 02:59:00,984 : INFO  : Saved iteration: 0 as gen_imgs/new_weights_generated_img_at_iteration_0.png
 2019-05-05 02:59:00,994 : DEBUG : ITERATION: 1
+2019-05-05 04:36:27,015 : WARNI : Variable += will be deprecated. Use variable.assign_add if you want assignment to the variable value or 'x = x + y' if you want a new python Tensor object.
+2019-05-05 04:36:29,135 : DEBUG : ITERATION: 0
+2019-05-05 04:48:52,956 : INFO  : Saved iteration: 0 as gen_imgs/new_weights_generated_img_at_iteration_0.png
+2019-05-05 04:48:53,576 : DEBUG : ITERATION: 1
+2019-05-05 05:01:07,136 : INFO  : Saved iteration: 1 as gen_imgs/new_weights_generated_img_at_iteration_1.png
+2019-05-05 05:01:07,136 : DEBUG : ITERATION: 2
